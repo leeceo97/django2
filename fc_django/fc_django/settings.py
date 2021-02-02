@@ -41,6 +41,7 @@ INSTALLED_APPS = [
     'fcuser',
     'order',
     'product',
+    'django_summernote',
 ]
 
 MIDDLEWARE = [
