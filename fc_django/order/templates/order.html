@@ -15,7 +15,7 @@
             <tbody class="text-dark">
                 {% for order in order_list %}
                 <tr>
-                    <th scope="row">{{ order.id }}</th>
+                    <th scope="row">{{ forloop.counter }}</th>
                     <th>{{ order.product }}</a></th>
                     <th>{{ order.quantity|intcomma }}개</th>
                     <th>{{ order.register_date|date:'Y-m-d H:i' }}</th>
